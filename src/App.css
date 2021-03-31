@@ -1,38 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap");
+
 .App {
-  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*-------------------------------------------------------------------
+    1.Home Page
+-------------------------------------------------------------------*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.home-page {
+  background: url("./assests/homeBck.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home-text-big {
+  font-size: 70px;
+  font-weight: 900;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-text-small {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.home-contents {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(41, 41, 56);
+}
+
+/*-------------------------------------------------------------------
+    2.About Page
+-------------------------------------------------------------------*/
+
+.about-page {
+  background: url("./assests/dottet_bg.png") no-repeat;
+  background-size: cover;
+}
+
+.about-text {
+  text-align: center;
+}
+
+.abt-header-text {
+  text-decoration: underline;
+  font-weight: 700;
+  color: green;
+}
+
+/*-------------------------------------------------------------------
+    3.Contact Page
+-------------------------------------------------------------------*/
+
+.contact-page {
+  background: url("./assests/contactImg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+/*-------------------------------------------------------------------
+    4.Course
+-------------------------------------------------------------------*/
+
+.course {
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.course-btn {
+  margin: 20px 0 20px 0;
+}
+
+.course-title {
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffdc00;
+}
+/*-------------------------------------------------------------------
+    5.Success Stories
+-------------------------------------------------------------------*/
+
+.success-stories {
+  background: #d5fafc;
 }
