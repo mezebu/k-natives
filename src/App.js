@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage";
 import ContactUs from "./components/ContactUs";
 import AboutPage from "./components/AboutPage";
 import CoursePage from "./components/CoursePage";
+import Header from "./components/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
@@ -11,6 +12,8 @@ import "normalize.css";
 function App() {
   return (
     <div className="App">
+      <Header />
+
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/contact" exact component={ContactUs} />

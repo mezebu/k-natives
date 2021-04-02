@@ -1,13 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   return (
     <>
-      <div className="container">
-        <Navbar bg="transparent" expand="lg" variant="light">
+      <Navbar
+        collapseOnSelect
+        bg="dark"
+        expand="lg"
+        variant="dark"
+        sticky="top"
+      >
+        <Container>
           <Navbar.Brand style={{ color: "#39CCCC" }}>
             Kharkiv Natives
           </Navbar.Brand>
@@ -36,8 +42,8 @@ const Header = () => {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Navbar>
-      </div>
+        </Container>
+      </Navbar>
     </>
   );
 };

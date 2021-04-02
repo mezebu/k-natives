@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header";
 import { Container, Row, Col } from "react-bootstrap";
 import SuccessStories from "./SuccessStories";
 import Course from "./Course";
@@ -9,7 +8,6 @@ const HomePage = () => {
     <>
       <div>
         <div className="home-page">
-          <Header />
           <div className="container">
             <div className="container-md home-contents">
               <Container fluid>

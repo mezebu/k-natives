@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./Header";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import avatar from "../assests/avatar.jpg";
 import AboutImg from "../assests/AboutImg.webp";
@@ -7,7 +6,6 @@ import AboutImg from "../assests/AboutImg.webp";
 const AboutPage = () => {
   return (
     <div className="about-page">
-      <Header />
       <div className="container">
         <div className="about-text">
           <h1 className="abt-header-text">About Us</h1>

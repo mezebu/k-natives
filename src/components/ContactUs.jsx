@@ -1,14 +1,12 @@
 import React from "react";
-import Header from "./Header";
 import { Container, Form, Button } from "react-bootstrap";
 
 const ContactUs = () => {
   return (
     <div className="contact-page">
-      <Header />
       <Container>
         <div class="bg-light p-5 rounded">
-          <div class="col-sm-8 mx-auto">
+          <div class="col-sm-6 mx-auto">
             <Form>
               <main class="form-signin">
                 <h1 class="h3 mb-3 fw-normal text-center">Contact Us</h1>
@@ -48,6 +46,8 @@ const ContactUs = () => {
                       height: "100px",
                       marginBottom: "1rem",
                       marginTop: "1rem",
+                      resize: "none",
+                      overflow: "hidden",
                     }}
                   ></textarea>
                   <label for="floatingTextarea2">Message</label>
