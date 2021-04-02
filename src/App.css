@@ -15,9 +15,10 @@
   color: white;
 }
 
-.home-text-big {
-  font-size: 70px;
+.home-text-big-one {
+  font-size: 65px;
   font-weight: 900;
+  margin-top: 70px;
 }
 
 .home-text-small {

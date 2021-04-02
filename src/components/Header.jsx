@@ -14,29 +14,27 @@ const Header = () => {
         sticky="top"
       >
         <Container>
-          <Navbar.Brand style={{ color: "#39CCCC" }}>
-            Kharkiv Natives
-          </Navbar.Brand>
+          <Navbar.Brand style={{ color: "#fff" }}>Kharkiv Natives</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home">
-                <Link to="/" style={{ color: "#39CCCC" }}>
+                <Link to="/" style={{ color: "#fff" }}>
                   Home
                 </Link>
               </Nav.Link>
               <Nav.Link href="#link">
-                <Link to="about" style={{ color: "#39CCCC" }}>
+                <Link to="about" style={{ color: "#fff" }}>
                   About Us
                 </Link>
               </Nav.Link>
               <Nav.Link href="#link">
-                <Link to="course" style={{ color: "#39CCCC" }}>
+                <Link to="course" style={{ color: "#fff" }}>
                   Coaching
                 </Link>
               </Nav.Link>
               <Nav.Link href="#link">
-                <Link to="contact" style={{ color: "#39CCCC" }}>
+                <Link to="contact" style={{ color: "#fff" }}>
                   Contact Us
                 </Link>
               </Nav.Link>

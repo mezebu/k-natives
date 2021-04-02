@@ -1,12 +1,7 @@
 import React from "react";
-import Header from "./Header";
 
 const CoursePage = () => {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default CoursePage;
