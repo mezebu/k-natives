@@ -6,27 +6,6 @@ function Footer() {
   return (
     <div classNameName="footer-page">
       <Container>
-        {/* <Row classNameName="text-center">
-          <div classNameName="footer-contents container">
-            <div classNameName="footer-contents-left">
-              <p>hello there sdjkd lkjdlkjs jlkdldls</p>
-            </div>
-            <div classNameName="footer-contents-right">
-              <div classNameName="footer-right-items">
-                <p>hello there sdjkd lkjdlkjs jlkdldls</p>
-              </div>
-
-              <div classNameName="footer-right-items">
-                hello there sdjkd lkjdlkjs jlkdldls
-              </div>
-
-              <div classNameName="footer-right-items">
-                hello there sdjkd lkjdlkjs jlkdldls
-              </div>
-            </div>
-          </div>
-        </Row> */}
-
         <footer class="footer layout_padding text-center">
           <div class="container">
             <div class="row">
