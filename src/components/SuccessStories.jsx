@@ -5,12 +5,18 @@ import avatar from "../assests/avatar.jpg";
 const SuccessStories = () => {
   return (
     <div className="success-stories">
-      <h3 className="text-center">Our Success Stories</h3>
+      <h3 className="text-center success-header-text">Our Success Stories</h3>
+
       <Container fluid>
         <Row className="text-center">
           <Col lg={4} md={4} sm={6} xs={12}>
             <p>
-              <Card border="secondary" text="dark" bg="warning">
+              <Card
+                border="secondary"
+                text="dark"
+                bg="warning"
+                className="mb-5"
+              >
                 <Card.Img variant="top" src={avatar} fluid />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -24,7 +30,7 @@ const SuccessStories = () => {
           </Col>
           <Col lg={4} md={4} sm={6} xs={12}>
             <p>
-              <Card border="secondary" text="dark">
+              <Card border="secondary" text="dark" className="mb-5">
                 <Card.Img variant="top" src={avatar} fluid />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -38,7 +44,7 @@ const SuccessStories = () => {
           </Col>
           <Col lg={4} md={4} sm={6} xs={12}>
             <p>
-              <Card border="success" text="dark">
+              <Card border="success" text="dark" className="mb-5">
                 <Card.Img variant="top" src={avatar} fluid />
                 <Card.Body>
                   <Card.Title>Card Title</Card.Title>
@@ -55,5 +61,4 @@ const SuccessStories = () => {
     </div>
   );
 };
-
 export default SuccessStories;

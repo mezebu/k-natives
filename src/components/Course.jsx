@@ -17,7 +17,7 @@ const Course = () => {
         <Row className="text-center">
           <Col lg={4} md={4} sm={6} xs={12}>
             <p>
-              <Card border="light" text="dark" bg="warning">
+              <Card border="light" text="dark" bg="light">
                 <Card.Img variant="top" src={corporate} fluid />
                 <Card.Body>
                   <Card.Title style={{ fontWeight: "700" }}>
@@ -30,12 +30,15 @@ const Course = () => {
                     and open up new opportunities.
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer>
+                  <small className="text-muted">Kharkiv Natives</small>
+                </Card.Footer>
               </Card>
             </p>
           </Col>
           <Col lg={4} md={4} sm={6} xs={12}>
             <p>
-              <Card border="light" text="dark" bg="warning">
+              <Card border="light" text="dark" bg="light">
                 <Card.Img variant="top" src={corporate} fluid />
                 <Card.Body>
                   <Card.Title style={{ fontWeight: "700" }}>
@@ -48,12 +51,15 @@ const Course = () => {
                     public and increase your communication skills
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer>
+                  <small className="text-muted">Kharkiv Natives</small>
+                </Card.Footer>
               </Card>
             </p>
           </Col>
           <Col lg={4} md={4} sm={6} xs={12}>
             <p>
-              <Card border="light" text="dark" bg="warning">
+              <Card border="light" text="dark" bg="light">
                 <Card.Img variant="top" src={corporate} fluid />
                 <Card.Body>
                   <Card.Title style={{ fontWeight: "700" }}>
@@ -66,6 +72,9 @@ const Course = () => {
                     speaking,writing and listening skills
                   </Card.Text>
                 </Card.Body>
+                <Card.Footer>
+                  <small className="text-muted">Kharkiv Natives</small>
+                </Card.Footer>
               </Card>
             </p>
           </Col>

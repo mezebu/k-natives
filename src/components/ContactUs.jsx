@@ -33,7 +33,7 @@ const ContactUs = () => {
                     type="number"
                     class="form-control"
                     id="floatingPassword"
-                    placeholder="Password"
+                    placeholder="Phone Number"
                   />
                   <label for="floatingPassword">Number</label>
                 </div>

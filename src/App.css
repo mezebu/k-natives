@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap");
-
+* {
+  list-style-type: none;
+}
 .App {
   font-family: "Nunito Sans", sans-serif;
 }
@@ -49,9 +51,9 @@ a {
 }
 
 .abt-header-text {
-  text-decoration: underline;
   font-weight: 700;
-  color: green;
+  font-size: 50px;
+  color: #6190e8;
 }
 
 /*-------------------------------------------------------------------
@@ -75,6 +77,7 @@ a {
 
 .course-btn {
   margin: 20px 0 20px 0;
+  padding: 30px 0 30px 0;
 }
 
 .course-title {
@@ -88,4 +91,33 @@ a {
 
 .success-stories {
   background: #d5fafc;
+}
+
+.success-header-text {
+  font-weight: 700;
+  font-size: 50px;
+  color: rgb(25, 231, 25);
+  padding: 30px 0 30px 0;
+}
+
+/*-------------------------------------------------------------------
+    Footer Page
+-------------------------------------------------------------------*/
+
+.footer-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contents-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right-items {
+  padding: 0 10px 0 10px;
+}
+
+.footer-link-heading {
+  padding: 50px 0 0 0;
 }
