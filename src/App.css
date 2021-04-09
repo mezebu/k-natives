@@ -104,6 +104,11 @@ a {
     Footer Page
 -------------------------------------------------------------------*/
 
+.footer-page {
+  background: black;
+  color: white;
+}
+
 .footer-contents {
   display: flex;
   justify-content: space-between;

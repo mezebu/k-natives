@@ -1,36 +1,34 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Logo from "../assests/NativesLogo.png";
+import FooterLogo from "../assests/k-footer.png";
 
 function Footer() {
   return (
-    <div classNameName="footer-page">
+    <div className="footer-page">
       <Container>
-        <footer class="footer layout_padding text-center">
+        <footer>
           <div class="container">
             <div class="row">
-              <div class="col-md-4 col-sm-12">
+              <div class="col-md-4 col-sm-12 mt-2">
                 <img
                   class="img-responsive"
-                  src={Logo}
+                  src={FooterLogo}
                   alt="logo"
                   width="150px"
                 />
 
-                <div class="footer_link_heading">
-                  <div class="footer_menu margin_top_30">
-                    <ul>
-                      <li>
-                        <a href="tel:9876543210">+380731184766</a>
-                      </li>
-                      <li>
-                        <a href="foo">kharkivnatives@gmail.com</a>
-                      </li>
-                      <li>
-                        <a href="foo">Ukraine kharkiv Balulina 16</a>
-                      </li>
-                    </ul>
-                  </div>
+                <div>
+                  <ul>
+                    <li>
+                      <a href="tel:9876543210">+380731184766</a>
+                    </li>
+                    <li>
+                      <a href="foo">kharkivnatives@gmail.com</a>
+                    </li>
+                    <li>
+                      <a href="foo">Ukraine kharkiv Bakulina 16</a>
+                    </li>
+                  </ul>
                 </div>
               </div>
 
