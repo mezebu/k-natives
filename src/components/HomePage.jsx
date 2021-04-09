@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import SuccessStories from "./SuccessStories";
 import Course from "./Course";
 import Footer from "./Footer";
+import CopyRights from "./CopyRights";
 
 const HomePage = () => {
   return (
@@ -31,6 +32,7 @@ const HomePage = () => {
         <Course />
         <SuccessStories />
         <Footer />
+        <CopyRights />
       </div>
     </>
   );

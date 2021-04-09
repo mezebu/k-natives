@@ -10,14 +10,13 @@ function Footer() {
           <div class="container">
             <div class="row">
               <div class="col-md-4 col-sm-12">
-                <a href="index.html">
-                  <img
-                    class="img-responsive"
-                    src={Logo}
-                    alt="logo"
-                    width="150px"
-                  />
-                </a>
+                <img
+                  class="img-responsive"
+                  src={Logo}
+                  alt="logo"
+                  width="150px"
+                />
+
                 <div class="footer_link_heading">
                   <div class="footer_menu margin_top_30">
                     <ul>
