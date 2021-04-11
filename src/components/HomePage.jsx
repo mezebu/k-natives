@@ -11,7 +11,7 @@ const HomePage = () => {
               <Container fluid>
                 <Row className="text-center">
                   <Col>
-                    <h1 className="home-text-big-one">
+                    <h1 className="home-text-big-one bg-txt-animation">
                       Welcome To Kharkiv Natives Language School
                     </h1>
                     <p className="home-text-small">

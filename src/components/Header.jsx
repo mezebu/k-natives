@@ -8,9 +8,9 @@ const Header = () => {
     <>
       <Navbar
         collapseOnSelect
-        bg="dark"
-        expand="lg"
+        bg="primary"
         variant="dark"
+        expand="lg"
         sticky="top"
       >
         <Container>
