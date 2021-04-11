@@ -1,9 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import SuccessStories from "./SuccessStories";
-import Course from "./Course";
-import Footer from "./Footer";
-import CopyRights from "./CopyRights";
 
 const HomePage = () => {
   return (
@@ -29,10 +25,6 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <Course />
-        <SuccessStories />
-        <Footer />
-        <CopyRights />
       </div>
     </>
   );

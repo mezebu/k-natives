@@ -49,19 +49,7 @@ function Footer() {
                         <li>
                           <a href="foo">Most Viewed</a>
                         </li>
-                        <li>
-                          <a href="foo">Top Paid</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
 
-                  <div class="col-md-6 col-sm-12">
-                    <div class="footer-link-heading">
-                      <h3>CATEGORIES</h3>
-                    </div>
-                    <div class="footer_menu">
-                      <ul>
                         <li>
                           <a href="foo">Corporate English</a>
                         </li>
@@ -80,10 +68,13 @@ function Footer() {
 
                   <div class="col-md-6 col-sm-12">
                     <div class="footer-link-heading">
-                      <h3>USEFUL LINKS</h3>
+                      <h3>CATEGORIES</h3>
                     </div>
                     <div class="footer_menu">
                       <ul>
+                        <li>
+                          <a href="foo">Top Paid</a>
+                        </li>
                         <li>
                           <a href="foo">FAQs</a>
                         </li>

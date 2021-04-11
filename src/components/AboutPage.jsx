@@ -85,7 +85,7 @@ const AboutPage = () => {
             </Col>
             <Col lg={4} md={4} sm={6} xs={12}>
               <p>
-                <Card border="info">
+                <Card border="info mb-5">
                   <Card.Img variant="top" src={avatar} fluid />
                   <Card.Body>
                     <Card.Title>John Doe</Card.Title>

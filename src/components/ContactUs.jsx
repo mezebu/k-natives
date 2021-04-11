@@ -5,41 +5,41 @@ const ContactUs = () => {
   return (
     <div className="contact-page">
       <Container>
-        <div class="bg-light p-5 rounded">
-          <div class="col-sm-6 mx-auto">
+        <div className="bg-light p-5 rounded">
+          <div className="col-sm-6 mx-auto">
             <Form>
-              <main class="form-signin">
-                <h1 class="h3 mb-3 fw-normal text-center">Contact Us</h1>
-                <div class="form-floating mb-3">
+              <main className="form-signin">
+                <h1 className=" text-center">Contact Us</h1>
+                <div className="form-floating mb-3">
                   <input
                     type="name"
-                    class="form-control"
+                    className="form-control"
                     id="floatingInput"
                     placeholder="Enter Name"
                   />
                   <label for="floatingInput">Name</label>
                 </div>
-                <div class="form-floating mb-3">
+                <div className="form-floating mb-3">
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="floatingInput"
                     placeholder="name@example.com"
                   />
                   <label for="floatingInput">Email address</label>
                 </div>
-                <div class="form-floating">
+                <div className="form-floating">
                   <input
                     type="number"
-                    class="form-control"
+                    className="form-control"
                     id="floatingPassword"
                     placeholder="Phone Number"
                   />
                   <label for="floatingPassword">Number</label>
                 </div>
-                <div class="form-floating">
+                <div className="form-floating">
                   <textarea
-                    class="form-control"
+                    className="form-control"
                     placeholder="Leave a comment here"
                     id="floatingTextarea2"
                     style={{
