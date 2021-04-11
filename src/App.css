@@ -10,6 +10,10 @@
     1.Home Page
 -------------------------------------------------------------------*/
 
+.color-nav {
+  background-color: #403972;
+}
+
 .home-page {
   background: url("./assests/homeBck.jpg") no-repeat;
   background-size: cover;
