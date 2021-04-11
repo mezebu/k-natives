@@ -4,7 +4,7 @@ import { Container, Form, Button } from "react-bootstrap";
 const ContactUs = () => {
   return (
     <div className="contact-page">
-      <Container>
+      <Container className="pt-5 pb-5">
         <div className="bg-light p-5 rounded">
           <div className="col-sm-6 mx-auto">
             <Form>
