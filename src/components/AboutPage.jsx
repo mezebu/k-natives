@@ -35,7 +35,7 @@ const AboutPage = () => {
           </Row>
         </Container>
         <div className="about-text">
-          <h1 className="abt-header-text">Team</h1>
+          <h3 className="pt-5">Meet The Team</h3>
         </div>
         <Container fluid>
           <Row className="text-center">
